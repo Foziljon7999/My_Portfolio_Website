@@ -635,10 +635,12 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item-inner {
+  position: relative;
   border: 6px solid var(--bg-black-100);
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  height: 100%;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
@@ -815,10 +817,6 @@ h3.my-profession {
 
 .portfolio-links {
   padding: 20px 10px 10px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
 }
 
 .portfolio-links .portfolio-link {
@@ -880,4 +878,23 @@ h3.my-profession {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.link-location {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+
+.portfolio-img-link {
+  min-height: 235.40px;
+  object-fit: cover;
+}
+
+.lnk {
+  object-fit: contain;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
 }

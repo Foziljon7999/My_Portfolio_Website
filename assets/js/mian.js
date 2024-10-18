@@ -2,7 +2,7 @@ const elRender = document.querySelector(".js-skills");
 const elTemplate = document.querySelector(".js-template").content;
 
 var typed = new Typed(".typing", {
-  strings: ["Web Developer!", "Frontend Developer!", "JavaScript Coder!"],
+  strings: ["Web Developer!", "Backend Developer!", "NodeJs Coder!"],
   typeSpeed: 100,
   BackSpeed: 60,
   loop: true,
